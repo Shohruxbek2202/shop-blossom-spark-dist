@@ -1,0 +1,42 @@
+# Premium Market Robots.txt
+# SEO Optimized Version
+
+User-agent: *
+Allow: /
+Disallow: /panel/
+Disallow: /cart
+Disallow: /checkout
+Disallow: /api/
+Disallow: /?sort=
+Disallow: /?filter=
+Disallow: /*?*sort=
+Disallow: /*?*filter=
+
+# Specific crawlers
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 2
+
+User-agent: Yandex
+Allow: /
+Crawl-delay: 2
+
+User-agent: Twitterbot
+Allow: /
+
+User-agent: facebookexternalhit
+Allow: /
+
+User-agent: TelegramBot
+Allow: /
+
+# Sitemap locations
+Sitemap: https://premium-market.uz/sitemap.xml
+Sitemap: https://kpoohymkthraujwdruau.supabase.co/functions/v1/sitemap?base_url=https://premium-market.uz
+
+# Host
+Host: https://premium-market.uz
